@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "firstConsoleApplication", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "firstWinFormApp", "firstWinFormApp\firstWinFormApp.csproj", "{66C21453-0037-45D0-998D-1A0DD73F0FB1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "firstMvcApplication", "firstMvcApplication\firstMvcApplication.csproj", "{AB90AC08-A2B5-45B7-9E9D-2C3BCD3F8158}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,6 +37,12 @@ Global
 		{66C21453-0037-45D0-998D-1A0DD73F0FB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{66C21453-0037-45D0-998D-1A0DD73F0FB1}.Release|Any CPU.Build.0 = Release|Any CPU
 		{66C21453-0037-45D0-998D-1A0DD73F0FB1}.Release|x86.ActiveCfg = Release|Any CPU
+		{AB90AC08-A2B5-45B7-9E9D-2C3BCD3F8158}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB90AC08-A2B5-45B7-9E9D-2C3BCD3F8158}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB90AC08-A2B5-45B7-9E9D-2C3BCD3F8158}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{AB90AC08-A2B5-45B7-9E9D-2C3BCD3F8158}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB90AC08-A2B5-45B7-9E9D-2C3BCD3F8158}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB90AC08-A2B5-45B7-9E9D-2C3BCD3F8158}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

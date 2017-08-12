@@ -1,0 +1,11 @@
+﻿################################################################################
+# 此 .gitignore 文件已由 Microsoft(R) Visual Studio 自动创建。
+################################################################################
+
+/firstWinFormApp/bin/Debug
+/firstWinFormApp/obj/Debug
+/firstMvcApplication/obj/Debug
+/firstMvcApplication/bin
+/firstConsoleApplication/obj/Debug
+/myNote/obj/Debug
+/packages
