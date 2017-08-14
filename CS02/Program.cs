@@ -2,7 +2,7 @@
 using System;
 
 //名字空间，一个名字空间可以包括多个类，
-namespace CS02     
+namespace 任CS02     
 {
     // 类
     class Program
@@ -15,27 +15,40 @@ namespace CS02
         {
             #region C#语句
 
-            Console.WriteLine("这是一个计算面积的程序");
+            try
+            {
 
-            // 获得输入的长度
-            Console.WriteLine("请输入长度：");
-            string strLength = Console.ReadLine();
-            double length = Convert.ToDouble(strLength);
-
-            // 获得输入的宽度
-            Console.WriteLine("请输入宽度：");
-            string strWidth= Console.ReadLine();
-            double width = Convert.ToDouble(strWidth);
-
-            // 创建矩型类，获取面积
-            Rectangle rect = new Rectangle();
-            rect.Length = length;
-            rect.Width = width;
-            double area = rect.GetArea();
+                Console.WriteLine("这是一个计算面积的程序");
 
 
-            Console.WriteLine("面积为：" + area.ToString() + "，按任意键结束。");
+
+                // 获得输入的长度
+                Console.WriteLine("请输入长度：");
+                string strLength = Console.ReadLine();
+                double length = Convert.ToDouble(strLength);
+
+                // 获得输入的宽度
+                Console.WriteLine("请输入宽度：");
+                string strWidth = Console.ReadLine();
+                double width = Convert.ToDouble(strWidth);
+
+                // 创建矩型类，获取面积
+                Rectangle rect = new Rectangle();
+                rect.Length = length;
+                rect.Width = width;
+                double area = rect.GetArea();
+
+
+                Console.WriteLine("面积为：" + area.ToString() + "，按任意键结束。");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("输入错误：" + ex.Message + "必须要输入数值型的值。");  
+            }
+
+
             Console.ReadKey();
+
 
             #endregion
         }
