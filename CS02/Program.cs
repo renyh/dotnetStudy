@@ -2,7 +2,7 @@
 using System;
 
 //名字空间，一个名字空间可以包括多个类，
-namespace 任CS02     
+namespace CS02     
 {
     // 类
     class Program
