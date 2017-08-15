@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "firstWeb", "firstWeb\firstW
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CS02", "CS02\CS02.csproj", "{17492950-16AD-4F5F-8AF4-58009F942738}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CS03", "CS03\CS03.csproj", "{711506FE-11C9-4503-9B4B-7E13D36765B2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,12 @@ Global
 		{17492950-16AD-4F5F-8AF4-58009F942738}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{17492950-16AD-4F5F-8AF4-58009F942738}.Release|Any CPU.Build.0 = Release|Any CPU
 		{17492950-16AD-4F5F-8AF4-58009F942738}.Release|x86.ActiveCfg = Release|Any CPU
+		{711506FE-11C9-4503-9B4B-7E13D36765B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{711506FE-11C9-4503-9B4B-7E13D36765B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{711506FE-11C9-4503-9B4B-7E13D36765B2}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{711506FE-11C9-4503-9B4B-7E13D36765B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{711506FE-11C9-4503-9B4B-7E13D36765B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{711506FE-11C9-4503-9B4B-7E13D36765B2}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
