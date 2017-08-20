@@ -23,7 +23,7 @@ namespace CS04
             sample3();
 
             // 等待用户任意输入，然后结束
-            Console.ReadLine();
+            Console.ReadKey();
         }
 
         // 例子1
