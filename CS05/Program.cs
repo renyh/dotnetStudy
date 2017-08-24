@@ -13,7 +13,7 @@ namespace CS05
             Console.WriteLine("比较运算符：");
             Sample1();
 
-            
+
             Console.WriteLine("\r\n逻辑运算符：");
             Sample2();
 
